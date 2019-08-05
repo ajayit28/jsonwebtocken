@@ -1,0 +1,21 @@
+POST http://localhost:5000/api/login HTTP/1.1
+content-type: application/json
+
+{
+    id: 1,
+    username: "ajay",
+    email: "ajay@gmail.com"
+  }
+
+###
+
+POST http://localhost:5000/api/post HTTP/1.1
+content-type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJ1c2VybmFtZSI6ImFqYXkiLCJlbWFpbCI6ImFqYXlAZ21haWwuY29tIn0sImlhdCI6MTU2NTAyMzI4OSwiZXhwIjoxNTY1MDIzMzE5fQ.ZaPdPrNF-iNtWfTpqWVMhttTr2skjLBEPiK2SWPJHNU
+
+{
+    id: 1,
+    username: "ajay",
+    email: "ajay@gmail.com"
+  }
+
